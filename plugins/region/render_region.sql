@@ -28,6 +28,7 @@ BEGIN
             '" attr2="' || l_attr_02 || '"></div>');
   --
   -- add JavaScript files
+  
   apex_javascript.add_library(p_name           => 'my_javascript_file',
                               p_directory      => p_plugin.file_prefix ||
                                                   'js/',

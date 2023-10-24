@@ -13,6 +13,7 @@ var apexDropzone = {
    * @param {string} pString
    * @return {boolean}
    */
+  
   parseBoolean: function(pString) {
     var boolean;
     if (pString.toLowerCase() == 'true') {

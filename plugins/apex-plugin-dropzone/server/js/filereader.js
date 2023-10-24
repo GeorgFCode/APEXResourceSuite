@@ -20,7 +20,6 @@ See http://github.com/bgrins/filereader.js for documentation.
     setupClipboard: setupClipboard,
     setSync: function(value) {
       sync = value;
-
       if (sync && !FileReaderSyncSupport) {
         checkFileReaderSyncSupport();
       }

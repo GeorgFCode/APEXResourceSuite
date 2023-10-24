@@ -27,6 +27,7 @@ end;
 /
 prompt --application/shared_components/plugins/region_type/com_mycompany_region_template
 begin
+
 wwv_flow_api.create_plugin(
  p_id=>wwv_flow_api.id(63821757402938287)
 ,p_plugin_type=>'REGION TYPE'
